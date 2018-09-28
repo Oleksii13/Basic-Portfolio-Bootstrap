@@ -1,59 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Portfolio-About-Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style/styles.css" />
     <link rel="icon" href="assets/images/icon.ico">
-    <link rel="stylesheet" type="text/html" href="index.html">
-    <link rel="stylesheet" type="text/html" href="portfolio.html">
+    <link type="text/html" href="contact.html">
+    <link type="text/html" href="portfolio.html">
+
+
 </head>
 
-<body>
-    <header>
-        <div class="hed">
+<body class="" style="background:url('/assets/images/xv.png');">
 
-            <a class="logo" href="#default">
-                <h1>Oleksii Nuzhdin</h1>
-            </a>
+    <header class="border-bottom px-auto text-center navbar navbar-light bg-white p-0 justify-content-between">
 
-            <nav>
 
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
-                </ul>
+        <a class="navbar-brand text-white bg-info py-3 px-5 m-0 col-12 col-sm-6" href="#default">
+            <h5>Oleksii Nuzhdin</h5>
+        </a>
 
-            </nav>
-        </div>
+        <!-- <nav> -->
+
+        <ul class="nav m-0 p-0 justify-content-center col-12 col-sm-6 font-weight-bold"">
+            <li class="
+            nav-item"><a class="nav-link text-muted" href="index.html">About</a></li>
+            <li class="nav-item border-left"><a class="nav-link  text-muted" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item border-left"> <a class="nav-link text-muted" href="contact.html">Contact</a></li>
+        </ul>
+
+
     </header>
-<section>
-    <article>
-            <h2 class="sect-name">Contact</h2>
-            <hr>
-            <form action="#">
-                <label for="name">Name</label>
-                <input type="text" id="name"  placeholder="John Smith" !important>
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="example@gmail.com" !important>
-                <label for="msg">Message</label>
-                <textarea rows="4" cols="50" name="message" id="msg"></textarea>
-               <!-- input type submit ??? -->
-                <label for="btn"></label>
-                <button id="btn" type="submit">Submit</button>
+    <section class="container" style="padding-bottom:100px;">
 
-            </form>
+        <div class="row  mt-3 mx-2 bg-white">
+            <div class="col-12">
+                <div class="row">
 
-    </article>
-</section>
+                    <h2 class="text-info w-100 border-bottom col-12 p-0">Portfolio</h2>
+                    <hr>
+                </div>
+                <form action="#" class="col-12 d-flex flex-column my-1">
+                    <label for="name" class="my-1 text-muted font-weight-bold"">Name</label>
+                <input type="
+                        text" id="name" placeholder="John Smith" class="my-1 border">
+                        <label for="email" class="my-1 text-muted font-weight-bold"">Email</label>
+                <input type="
+                            email" id="email" placeholder="example@gmail.com" class="my-1 border">
+                            <label for="msg" class="my-1 text-muted font-weight-bold"">Message</label>
+                <textarea rows="
+                                4" cols="50" name="message" id="msg" class="my-1 border"></textarea>
+                                <!-- input type submit what the difference ??? -->
+                                <label for="btn"></label>
+                                <button id="btn" type="submit" class="bg-info text-white my-1">Submit</button>
+                </form>
+
+            </div>
+    </section>
 
 
-    <footer>
-        <p>Copyright ©</p>
+    <footer class="container-fluid bg-info pt-2 px-0 fixed-bottom">
+        <p class="text-white p-4 m-0 align-middle text-center bg-secondary">Copyright &copy;</p>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

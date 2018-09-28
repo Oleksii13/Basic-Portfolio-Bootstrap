@@ -1,102 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Gallery</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Portfolio-About-Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style/styles.css" />
     <link rel="icon" href="assets/images/icon.ico">
-    <link rel="stylesheet" type="text/html" href="index.html">
-    <link rel="stylesheet" type="text/html" href="contact.html">
+    <link type="text/html" href="contact.html">
+    <link type="text/html" href="portfolio.html">
+
+
 </head>
 
-<body>
-    <header>
-        <div class="hed">
+<body class="" style="background:url('/assets/images/xv.png');">
 
-            <a class="logo" href="#default">
-                <h1>Oleksii Nuzhdin</h1>
-            </a>
+    <header class="border-bottom px-auto text-center navbar navbar-light bg-white p-0 justify-content-between">
 
-            <nav>
 
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
-                </ul>
+        <a class="navbar-brand text-white bg-info py-3 px-5 m-0 col-12 col-sm-6" href="#default">
+            <h5>Oleksii Nuzhdin</h5>
+        </a>
 
-            </nav>
-        </div>
+        <!-- <nav> -->
+
+        <ul class="nav m-0 p-0 justify-content-center col-12 col-sm-6 font-weight-bold"">
+            <li class="
+            nav-item"><a class="nav-link text-muted" href="index.html">About</a></li>
+            <li class="nav-item border-left"><a class="nav-link  text-muted" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item border-left"> <a class="nav-link text-muted" href="contact.html">Contact</a></li>
+        </ul>
+
+
     </header>
-    <section>
-        <article>
+    <section class="container" style="padding-bottom:100px;">
 
-            <h2 class="sect-name">Portfolio</h2>
-            <hr>
+        <div class="row  mt-3 mx-2 bg-white">
+            <div class="col-12">
+                <div class="row">
 
-            <!-- How I can reduce this code -->
-            <div class="center-grid">
+                    <h2 class="text-info w-100 border-bottom col-12 p-0">Portfolio</h2>
+                    <hr>
+                </div>
 
-                <div class="grid-container">
+                <!-- How I can reduce this code -->
+
+                <div class="row justify-content-center">
 
 
 
-                    <a class="link" href="#">
-                        <div class="cont-img">
-                            <img src="assets/images/future.jpg" alt="">
 
-                            <span>Sci-Fi</span>
+
+
+                    <div class="d-flex flex-column  flex-sm-row flex-wrap">
+
+                        <a class="link col-sm-3 offset-sm-2 col-lg-3 offset-lg-1" href="#">
+                            <div class="mb-4 text-center " style="position:relative;">
+                                <img src="assets/images/future.jpg" alt="">
+    
+                                <span class="text-white bg-info">
+                                    Sci-Fi</span>
+                            </div>
+                        </a>
+    
+                        <a class="link col-sm-3 offset-sm-2 col-lg-3 offset-lg-1" href="#">
+                            <div class="mb-4 text-center " style="position:relative">
+                                <img src="assets/images/good_news.jpg" alt="">
+    
+                                <span class="text-white bg-info" >
+                                    Good News</span>
+                            </div>
+                        </a>
+    
+                        <a class="link col-sm-3 offset-sm-2 col-lg-3 offset-lg-1" href="#">
+                            <div class="mb-4 text-center " style="position:relative;">
+                                <img src="assets/images/ice_cream.jpg" alt="">
+    
+                                <span class="text-white bg-info" >
+                                    Ice Cream</span>
+                            </div>
+                        </a>
                         </div>
-                    </a>
+                        <div class="d-flex flex-column  flex-sm-row flex-wrap"></div>
+                        <a class="link col-sm-3 offset-sm-2 col-lg-2 offset-lg-1" href="#">
+                            <div class="mb-4 text-center " style="position:relative">
+                                <img src="assets/images/cat.jpg" alt="">
+    
+                                <span class="text-white bg-info" >
+                                    Cat</span>
+                            </div>
+                        </a>
+                        <a class="link col-sm-3 offset-sm-2 col-lg-2 offset-lg-1" href="#">
+                            <div class="mb-4 text-center" style="position:relative">
+                                <img src="assets/images/coding.jpg" alt="">
+    
+                                <span class="text-white bg-info" >
+                                    Coding</span>
+                            </div>
+                        </a>
+    
+                        <a class="link col-sm-3 offset-sm-2 col-lg-2 offset-lg-1" href="#">
+                            <div class="mb-4 text-center" style="position:relative">
+                                <img src="assets/images/travel.jpg" alt="">
+    
+                                <span class="text-white bg-info" >
+                                    Travel</span>
+                            </div>
+                        </a>
+                    </div>
 
-                    <a class="link" href="#">
-                        <div class="cont-img">
-                            <img src="assets/images/good_news.jpg" alt="">
 
-                            <span>Good News</span>
-                        </div>
-                    </a>
-
-                    <a class="link" href="#">
-                        <div class="cont-img">
-                            <img src="assets/images/ice_cream.jpg" alt="">
-
-                            <span>Ice Cream</span>
-                        </div>
-                    </a>
-                    <a class="link" href="#">
-                        <div class="cont-img">
-                            <img src="assets/images/cat.jpg" alt="">
-
-                            <span>Cat</span>
-                        </div>
-                    </a>
-                    <a class="link" href="#">
-                        <div class="cont-img">
-                            <img src="assets/images/coding.jpg" alt="">
-
-                            <span>Coding</span>
-                        </div>
-                    </a>
-
-                    <a class="link" href="#">
-                        <div class="cont-img">
-                            <img src="assets/images/travel.jpg" alt="">
-
-                            <span>Travel</span>
-                        </div>
-                    </a>
                 </div>
             </div>
-        </article>
+        </div>
     </section>
 
 
-    <footer>
-        <p>Copyright ©</p>
+    <footer class="container-fluid bg-info pt-2 px-0 fixed-bottom">
+        <p class="text-white p-4 m-0 align-middle text-center bg-secondary">Copyright &copy;</p>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,59 @@
+@media all and (min-width: 1024px) {
+  h2 {
+    margin-left: 30px;
+  }
+  span {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 180px;
+  }
+  #btn {
+    width: 10%;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  h2 {
+    margin-left: 30px;
+  }
+  span {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 180px;
+  }
+  #btn {
+    width: 10%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  h2 {
+    margin-left: 30px;
+  }
+  span {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 180px;
+  }
+  #btn {
+    width: 13%;
+  }
+}
+
+@media all and (max-width: 640px) {
+  h2 {
+    margin-left: 30px;
+  }
+  span {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 180px;
+  }
+  #btn {
+    width: 30%;
+  }
+}

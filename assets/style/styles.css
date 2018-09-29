@@ -1,3 +1,13 @@
+ul a:hover {
+  color: #4aaaa5 !important;
+}
+
+.space {
+  margin: 0 0 10px 0;
+}
+
+/* This media query mostly for Portfolio file */
+
 @media all and (min-width: 1024px) {
   h2 {
     margin-left: 30px;
@@ -11,9 +21,15 @@
   #btn {
     width: 10%;
   }
+  .container-fluid {
+    width: 85%;
+  }
+  .mright {
+    margin-right: 30px;
+  }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (min-width: 1023px) {
   h2 {
     margin-left: 30px;
   }
@@ -25,6 +41,12 @@
   }
   #btn {
     width: 10%;
+  }
+  .container-fluid {
+    width: 85%;
+  }
+  .mright {
+    margin-right: 30px;
   }
 }
 
@@ -41,6 +63,9 @@
   #btn {
     width: 13%;
   }
+  .container-fluid {
+    width: 75%;
+  }
 }
 
 @media all and (max-width: 640px) {
@@ -56,4 +81,21 @@
   #btn {
     width: 30%;
   }
+  .container-fluid {
+    width: 90%;
+  }
+  header a {
+    width: 100%;
+  }
 }
+
+/* I do not how to do and maybe you can suggest me???????:
+1. My "hr" going out of container in portfolio and contact file
+2. in Portfolio file I did not make responsive img and did not connect text to the pictures.
+3. My navbar not so much responsive as I want.
+4. I did not use responsive pictures.
+5. I used Inline css style, because at the beginning I thought we need to do just Bootstrap styling without any css,
+then TA sad that I can use CSS but I do not understand what amount and balance should be between bootstrap and css.
+6.I did my assignment with Toggle device toolbar for 3 sizes: Mobile S 100%, Tablet 100% and Laptop 75%. But on
+on other screens it still looks awkward. I still do not understand on which size should I look to make right responsive,
+or it should be right on any sizes ???    */

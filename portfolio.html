@@ -17,111 +17,90 @@
 
 <body class="" style="background:url('/assets/images/xv.png');">
 
-    <header class="border-bottom px-auto text-center navbar navbar-light bg-white p-0 justify-content-between">
+    <!-- here is my HEADER and NAVBAR -->
 
-
-        <a class="navbar-brand text-white bg-info py-3 px-5 m-0 col-12 col-sm-6" href="#default">
-            <h5>Oleksii Nuzhdin</h5>
+    <header class="border-bottom text-center navbar navbar-light bg-white p-0 d-flex flex-row justify-content-around">
+        <a class="navbar-brand text-white text-center bg-info py-3 px-5 m-0  col-12 col-sm-4 offset-sm-1 " href="#default">
+            <h5 class="">Oleksii Nuzhdin</h5>
         </a>
-
-        <!-- <nav> -->
-
-        <ul class="nav m-0 p-0 justify-content-center col-12 col-sm-6 font-weight-bold"">
-            <li class="
-            nav-item"><a class="nav-link text-muted" href="index.html">About</a></li>
-            <li class="nav-item border-left"><a class="nav-link  text-muted" href="portfolio.html">Portfolio</a></li>
-            <li class="nav-item border-left"> <a class="nav-link text-muted" href="contact.html">Contact</a></li>
+        <ul class="nav justify-content-around  justify-content-sm-end m-0 p-0 col-12 col-sm-5 offset-sm-1 font-weight-bold">
+            <li class="nav-item"><a class="nav-link text-muted " href="index.html">About</a></li>
+            <li class="nav-item border-left"><a class="nav-link text-muted" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item border-left"> <a class="nav-link text-muted pr-sm-0" href="contact.html">Contact</a></li>
         </ul>
-
-
     </header>
-    <section class="container" style="padding-bottom:100px;">
 
+    <!-- Section and main content -->
+
+    <section class="container-fluid" style="padding-bottom:100px;">
         <div class="row  mt-3 mx-2 bg-white">
             <div class="col-12">
                 <div class="row">
-
-                    <h2 class="text-info w-100 border-bottom col-12 p-0">Portfolio</h2>
+                    <h2 class="text-info  border-bottom col-12 p-0 spaceP">Portfolio</h2>
                     <hr>
                 </div>
 
-                <!-- How I can reduce this code -->
+                <!-- Main content -->
 
-                <div class="row justify-content-center">
+                <!-- How I can reduce the code for each picture with text and A tag -->
 
-
-
-
-
-
+                <div class="row justify-content-around">
                     <div class="d-flex flex-column  flex-sm-row flex-wrap">
-
-                        <a class="link col-sm-3 offset-sm-2 col-lg-3 offset-lg-1" href="#">
-                            <div class="mb-4 text-center " style="position:relative;">
+                        <a class="link col-sm-4 offset-sm-1 col-lg-2 offset-lg-1 mright" href="#">
+                            <div class="mb-4 text-center" style="position:relative;">
                                 <img src="assets/images/future.jpg" alt="">
-    
                                 <span class="text-white bg-info">
                                     Sci-Fi</span>
                             </div>
                         </a>
-    
-                        <a class="link col-sm-3 offset-sm-2 col-lg-3 offset-lg-1" href="#">
+                        <a class="link col-sm-3 offset-sm-1 col-lg-2 offset-lg-1 mright" href="#">
                             <div class="mb-4 text-center " style="position:relative">
                                 <img src="assets/images/good_news.jpg" alt="">
-    
-                                <span class="text-white bg-info" >
+                                <span class="text-white bg-info">
                                     Good News</span>
                             </div>
                         </a>
-    
-                        <a class="link col-sm-3 offset-sm-2 col-lg-3 offset-lg-1" href="#">
+                        <a class="link col-sm-4 offset-sm-1 col-lg-2 offset-lg-1 mright" href="#">
                             <div class="mb-4 text-center " style="position:relative;">
                                 <img src="assets/images/ice_cream.jpg" alt="">
-    
-                                <span class="text-white bg-info" >
+                                <span class="text-white bg-info">
                                     Ice Cream</span>
                             </div>
                         </a>
-                        </div>
-                        <div class="d-flex flex-column  flex-sm-row flex-wrap"></div>
-                        <a class="link col-sm-3 offset-sm-2 col-lg-2 offset-lg-1" href="#">
+                        <a class="link col-sm-3 offset-sm-1 col-lg-2 offset-lg-1 mright" href="#">
                             <div class="mb-4 text-center " style="position:relative">
                                 <img src="assets/images/cat.jpg" alt="">
-    
-                                <span class="text-white bg-info" >
+                                <span class="text-white bg-info">
                                     Cat</span>
                             </div>
                         </a>
-                        <a class="link col-sm-3 offset-sm-2 col-lg-2 offset-lg-1" href="#">
+                        <a class="link col-sm-4 offset-sm-1 col-lg-2 offset-lg-1 mright" href="#">
                             <div class="mb-4 text-center" style="position:relative">
                                 <img src="assets/images/coding.jpg" alt="">
-    
-                                <span class="text-white bg-info" >
+                                <span class="text-white bg-info">
                                     Coding</span>
                             </div>
                         </a>
-    
-                        <a class="link col-sm-3 offset-sm-2 col-lg-2 offset-lg-1" href="#">
+                        <a class="link col-sm-3 offset-sm-1 col-lg-2 offset-lg-1 mright" href="#">
                             <div class="mb-4 text-center" style="position:relative">
                                 <img src="assets/images/travel.jpg" alt="">
-    
-                                <span class="text-white bg-info" >
+                                <span class="text-white bg-info">
                                     Travel</span>
                             </div>
                         </a>
                     </div>
-
-
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- my fixed footer -->
 
-    <footer class="container-fluid bg-info pt-2 px-0 fixed-bottom">
+    <footer class="container-fluid bg-info pt-2 px-0 fixed-bottom w-100">
         <p class="text-white p-4 m-0 align-middle text-center bg-secondary">Copyright &copy;</p>
     </footer>
 
+    <!-- links for JS and JQ -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
